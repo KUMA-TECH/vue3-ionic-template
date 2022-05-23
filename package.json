@@ -8,9 +8,19 @@
     "prod": "cross-env NODE_ENV=dev vue-cli-service serve --mode production",
     "buildStage": "vue-cli-service build --mode staging",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint --mode development"
+    "lint": "vue-cli-service lint --mode development",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run serve"
   },
   "dependencies": {
+    "@capacitor/android": "3.5.1",
+    "@capacitor/app": "1.1.1",
+    "@capacitor/cli": "3.5.1",
+    "@capacitor/core": "3.5.1",
+    "@capacitor/haptics": "1.1.4",
+    "@capacitor/ios": "3.5.1",
+    "@capacitor/keyboard": "1.2.2",
+    "@capacitor/status-bar": "1.0.8",
     "amfe-flexible": "^2.2.1",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",

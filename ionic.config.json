@@ -1,0 +1,7 @@
+{
+  "name": "vue3_ts_wx_template",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
